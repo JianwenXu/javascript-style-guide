@@ -94,7 +94,7 @@ ES5 的编码规范请查看[版本一](https://github.com/sivan/javascript-styl
 
   > 为什么？这能确保你无法对引用重新赋值，也不会导致出现 bug 或难以理解。
 
-  ```javascript
+    ```javascript
   // bad
   var a = 1;
   var b = 2;
@@ -102,13 +102,13 @@ ES5 的编码规范请查看[版本一](https://github.com/sivan/javascript-styl
   // good
   const a = 1;
   const b = 2;
-  ```
+    ```
 
   - [2.2](#2.2) <a name='2.2'></a> 如果你一定需要可变动的引用，使用 `let` 代替 `var`。
 
   > 为什么？因为  `let` 是块级作用域，而 `var` 是函数作用域。
 
-  ```javascript
+    ```javascript
   // bad
   var count = 1;
   if (true) {
@@ -120,7 +120,7 @@ ES5 的编码规范请查看[版本一](https://github.com/sivan/javascript-styl
   if (true) {
     count += 1;
   }
-  ```
+    ```
 
   - [2.3](#2.3) <a name='2.3'></a> 注意 `let` 和 `const` 都是块级作用域。
 
