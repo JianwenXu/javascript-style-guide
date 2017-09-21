@@ -565,19 +565,19 @@ ES5 的编码规范请查看[版本一](https://github.com/sivan/javascript-styl
 
   - [7.8](#7.8) <a name='7.8'></a> 直接给函数参数赋值时需要避免副作用。
 
-  > 为什么？因为这样的写法让人感到很困惑。
+    > 为什么？因为这样的写法让人感到很困惑。
 
-  ```javascript
-  var b = 1;
-  // bad
-  function count(a = b++) {
-    console.log(a);
-  }
-  count();  // 1
-  count();  // 2
-  count(3); // 3
-  count();  // 3
-  ```
+    ```javascript
+    var b = 1;
+    // bad
+    function count(a = b++) {
+      console.log(a);
+    }
+    count();  // 1
+    count();  // 2
+    count(3); // 3
+    count();  // 3
+    ```
 
 
 **[⬆ 返回目录](#table-of-contents)**
