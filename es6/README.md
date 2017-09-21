@@ -188,7 +188,7 @@ ES5 的编码规范请查看[版本一](https://github.com/sivan/javascript-styl
   <a name="es6-computed-properties"></a>
   - [3.4](#3.4) <a name='3.4'></a> 创建有动态属性名的对象时，使用可被计算的属性名称。
 
-  > 为什么？因为这样可以让你在一个地方定义所有的对象属性。
+    > 为什么？因为这样可以让你在一个地方定义所有的对象属性。
 
     ```javascript
     function getKey(k) {
