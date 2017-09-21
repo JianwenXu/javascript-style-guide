@@ -94,6 +94,7 @@ ES5 的编码规范请查看[版本一](https://github.com/sivan/javascript-styl
 
   > 为什么？这能确保你无法对引用重新赋值，也不会导致出现 bug 或难以理解。
 
+
     ```javascript
     // bad
     var a = 1;
@@ -107,6 +108,7 @@ ES5 的编码规范请查看[版本一](https://github.com/sivan/javascript-styl
   - [2.2](#2.2) <a name='2.2'></a> 如果你一定需要可变动的引用，使用 `let` 代替 `var`。
 
   > 为什么？因为  `let` 是块级作用域，而 `var` 是函数作用域。
+
 
     ```javascript
     // bad
