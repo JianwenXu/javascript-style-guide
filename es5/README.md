@@ -1,4 +1,4 @@
-# Airbnb JavaScript Style Guide() {  
+# Airbnb JavaScript Style Guide() {
 
 *用更合理的方式写 JavaScript*
 
@@ -574,6 +574,10 @@
     if ([0]) {
       // true
       // 一个数组就是一个对象，对象被计算为 true
+    }
+
+    if ('0') {
+      // true
     }
     ```
 
